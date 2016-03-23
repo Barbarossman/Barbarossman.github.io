@@ -1,4 +1,4 @@
-{
+*{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -29,7 +29,7 @@ a {
     transition: all 0.5s ;
 }
 
-.container {
+.wrapper {
     width: 70%;
     margin: 0 auto;
     padding: 50px 45px 60px;
@@ -81,36 +81,37 @@ header a {
     color: #fff;
 }
 
-.content-container.sidebar {
+.content-wrapper .sidebar {
     width: 30%;
     padding-right: 46px;
     float: left;
     
 }
 
-.content-container ul {
+.content-wrapper ul {
     border: 1px solid #f0f0f0;
 }
 
-.content-container a {
+.content-wrapper a {
     display: block;
     padding: 15px 20px;
     border-top: 1px solid #f0f0f0;
 }
 
-.content-container li:first-child a {
+.content-wrapper li:first-child a {
     border-top: none;
 }
 
-.content-container a:hover {
+.content-wrapper a:hover {
     padding-left: 30px;
     background: #f9f9f9;
     color: #000;
 }
 
-.content-container .main {
+.content-wrapper .main {
     width: 70%;
     float: left;
+    display: inline-block;
 }
 
 .main img {
