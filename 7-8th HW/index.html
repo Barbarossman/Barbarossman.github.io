@@ -22,7 +22,7 @@
 </head>
 <body>
 	<header>
-    <nav="navigation">
+    <nav role="navigation">
         <div class="container">
             <a class="brand" href="">
                 <img src="img/brand.png" alt="brand"/>
@@ -91,7 +91,7 @@
                                  </div>
                              </div>
                              <a class="header-slider__navigation header-slider--prev" role="button"></a>
-                             <a class="header-slider__navigation header-slider--next" role="button"></a>
+                             <a class="header-slider__navigation header-slider--text" role="button"></a>
                              <ul class="slider__pagination header-slider--pagination">
                              	<li>
                             <span class="slider__control"></span>
@@ -136,14 +136,14 @@
                          </div>
                          <div class="main-info">
                             <div class="container clearfix">
-                            <div class="testimonial-slider">
+                            <section class="testimonial-slider">
                                 <div class="testimonials-slider__item">
                                     <a class="testimonials-slider__face">
                                         <img src="img/slider/reviews/1.png" alt=""/>
                                     </a>
                                     <h5 class="testimonials-slider__heading">pingbuller <span class="text-pink">starts here</span></h5>
                                     <p>"Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere.
-                    Pellentesque vel lacus eget nisi convallis auctor. Nam vitae"<span class="hidden-xxs">lectus eu libero pellentesque pulvinar</span><span
+                    Pellentesque vel lacus eget nisi convallis auctor. Nam vitae"<span class="hidden-xxs">lectus eu libero pellentesque pulvinar</span><span>
                             class="hidden-sm hidden-xxs"> urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl."</span>
                         </p>
                     </div>
@@ -166,15 +166,16 @@
                         <img src="img/blogposts/1.png" alt=""/>
                     </a>
                     <div class="blogpost-updates__text">
-                        <a class="blogpost-updates__header text-bold" href="javascript:void(0)"> Nunc turpis neque <span blogpost-updates__text class="hidden-xxs"> 13 2012</span><span class="hidden-sm-down"> in Recent News</span></p>
+                        <a class="blogpost-updates__header text-bold" href="javascript:void(0)"> Nunc turpis neque <span class="hidden-xxs", feugiat eget<span></a>
+                        <p>Posted by Admin on March<span class="hidden-xss">13 2012</span><span class="hidden-sm-down"> in Recent News</span></p>
                     </div>
                 </li>
                     <li class="blogpost-updates__item">
                     <a class="blogpost-updates__img" href="javascript:void(0)">
                         <img src="img/blogposts/2.png" alt=""/>
                     </a>
-                    <li class="blogpost-updates__text">
-                        <a class="blogpost-updates__header text-bold" href="javascript:void(0)">Nunc turpis neque<span class="hidden-xxs"> feugiat eget</span></a>
+                    <div class="blogpost-updates__text">
+                        <a class="blogpost-updates__header text-bold" href="javascript:void(0)">Nunc turpis neque<span class="hidden-xxs">feugiat eget</span></a>
                         <p> Posted by Admin on March <span class="hidden-xxs">13 2012</span><span class="hidden-sm-down"></p>
                            </div>
                 </li>

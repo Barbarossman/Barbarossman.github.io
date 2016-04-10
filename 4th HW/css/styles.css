@@ -13,7 +13,7 @@
    clear: both;
 }
 .clearfix {
-	zoom:1;
+	zoom: 1;
 }
 body {
     background: url(../img/bg.jpg) 0 -38px;
@@ -60,7 +60,7 @@ body {
 	text-align: center;
 	margin: 0 5px;
 }
-.links li:first-child;
+.links li:first-child {
         margin-left: 0;
 	}
 
@@ -105,7 +105,7 @@ body {
 
 .navbar a {
 color: #fff; 
-text-decoration;
+text-decoration: none;
 }
 
 nav {
@@ -121,6 +121,7 @@ box-shadow:0 1px 4px #000008;
 position: relative;
 text-align: center;
 }
+
 .navbar{
 	display: inline-block;
 }
@@ -154,7 +155,7 @@ position: relative;
     -o-transition: opacity ease .5s;
     transition: opacity ease .5s;
 }
-.dropdown-menu >li{
+.dropdown-menu >li {
 	display: block;
 }
 .dropdown-menu > li > a {
@@ -170,7 +171,7 @@ position: relative;
 	background: url(../img/caret.png)top left;
 	width: 5px;
 	height: 6px;
-	margin: left: 5px;
+	margin: left 5px;
 }
 .content {
 	overflow: hidden; /* the only one true layout method for the same height columns */
@@ -184,7 +185,7 @@ position: relative;
 	padding-bottom: 99999px;
 }
 
-.content aside h3{
+.content aside h2{
 	padding: 10px 0;
 	text-align: center;
 	font-size: 18px;
