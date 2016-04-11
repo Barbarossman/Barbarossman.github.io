@@ -143,6 +143,7 @@ position: relative;
 	padding:0 5px 5px;
 	text-align: left;
 	border-top: 1px solid #000;
+	background: #303030;
 	background: -webkit-linear-gradient #373737, #303030;
     background: -moz-linear-gradient #373737, #303030;
     background: -o-linear-gradient #373737, #303030;
@@ -153,7 +154,7 @@ position: relative;
     -webkit-transition: opacity ease .5s;
     -moz-tansition: opacity ease .5s;
     -o-transition: opacity ease .5s;
-    transition: opacity ease .5s;
+    transition: opacity ease .3s;
 }
 .dropdown-menu >li {
 	display: block;

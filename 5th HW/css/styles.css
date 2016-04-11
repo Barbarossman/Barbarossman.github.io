@@ -106,16 +106,22 @@ header li a {
 .navbar {
     position: relative;
 }
+header .navbar a:hover {
+    border-left: 1px solid #074f8f;
+    border-right: 1px solid #074f8f;
+    text-decoration: none;
+    color: #fff;
+    background: #4eabda;
+    background: -webkit-linear-gradient #595959, #4eabda;
+    background: -o-linear-gradient #595959, #4eabda;
+    background: linear-gradient #595959, #4eabda;
+}
 
 .navbar a {
     padding: 10px;
     color: #4f9ed7;
 }
 
-.navbar .active a {
-    color: #fff;
-    background-color: #4eabda;
-}
 
 .divider {
     position: absolute;
