@@ -153,7 +153,7 @@ width: 300px;
 .about__icon{
 	display: block;
 	position: relative;
-	background: url(../img/icons.png) no-repeat;      /*what the heck this part doesn't work?!*/
+	background: url(../img/icons.png) no-repeat;     
 	width: 30px;
 	height: 30px;
 }
@@ -296,14 +296,14 @@ opacity: .7;
 
 .brands__link--billabong{
 background-position: 0 0;
-width: 70px;
+width: 80px;
 }
 
 .brands__link--dc{
 	background-position: -135px 0;
 	width: 72px;
 }
-.brands__link__element{
+.brands__link--element{
 	background-position: -270px 0;
 	width: 65px;
 }
@@ -662,7 +662,7 @@ padding-left: 25px;
 width: 26%;
 }
 
-.brands__item:nth-of-type(n + 5) {
+.brands__item:nth-of-type(n+5) {
 	width: 32%;
 }
 .footer-info{
