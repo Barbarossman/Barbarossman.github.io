@@ -278,7 +278,6 @@ margin-top: 7px;
 	margin: 0 auto;
 	width: 960px;
 }
-}
 .brand__list{
 	text-align: center;
 }
@@ -302,18 +301,21 @@ opacity: .7;
 }
 
 .brands__link--billabong{
-background-position: 0 0;
+background-position: -10px 0;
 width: 80px;
+padding: 10px;
 
 }
 
 .brands__link--dc{
 	background-position: -135px 0;
 	width: 72px;
+	padding: 10px;
 }
 .brands__link--element{
 	background-position: -270px 0;
 	width: 65px;
+	padding: 0px;
 }
 .brands__link--awsm{
 	background-position: -410px 0;
