@@ -33,7 +33,7 @@ li{
 	-moz-transition: all .3s ease;
 	-o-transition: all .3s ease;
 	transition: all .3s ease;
-	cursor: grab;
+	cursor: pointer;
 }
 
 body{
@@ -276,14 +276,13 @@ margin-top: 7px;
 }
 .container{
 	margin: 0 auto;
-	width: 960px;
+	width: 768px;
 }
 .brand__list{
 	text-align: center;
 }
 .brands__item{
 	display: inline-block;
-	padding: 10px;
 }
 
 .brands__link{
@@ -301,21 +300,19 @@ opacity: .7;
 }
 
 .brands__link--billabong{
-background-position: -10px 0;
-width: 80px;
-padding: 10px;
+background-position: 0px 0;
+width: 70px;
 
 }
 
 .brands__link--dc{
 	background-position: -135px 0;
 	width: 72px;
-	padding: 10px;
 }
 .brands__link--element{
 	background-position: -270px 0;
 	width: 65px;
-	padding: 0px;
+
 }
 .brands__link--awsm{
 	background-position: -410px 0;
@@ -330,6 +327,7 @@ padding: 10px;
 .brands__link--vonzipper {
 	background-position: -695px 0;
 	width: 82px;
+	padding:0;
 }
 
 footer{
@@ -459,9 +457,9 @@ color: #a6a6a6;
 
 /*Responsive block*/
 
-@media (max-width: 767px){
+@media (max-width: 768px){
 	.container{
-		width: 480px;
+		width: 768px;
 		padding: 0 20px;
 		margin: 0 auto;
 	}
@@ -666,7 +664,7 @@ padding-left: 25px;
 	padding:36px 0 14px;
 }
 .brands__item{
-	width: 27px;
+
 	padding-bottom: 22px;
 }
 .brands__item:nth-of-type(4){
@@ -700,8 +698,8 @@ footer{
 
 @media(max-width: 480px){
 	.container{
-		width: 320px;
-		padding: 0 20px;
+		width: 480px;
+		padding: 0px;
 		margin: 0 auto;
 	}
 	.hidden-xxs{
@@ -786,7 +784,7 @@ footer{
 @media (min-width: 768px){
 	.container{
      width: 768px;
-     padding: 0 20px;
+     padding: 0 0px;
      margin: 0 auto;
 	}
 .hidden-sm-up{
@@ -937,7 +935,7 @@ footer{
 @media (min-width: 960px){
 	.container{
 		width: 960px;
-		padding-right: 0;
+		padding: 0;
 		margin: 0 auto;
 	}
 .hidden-md-up{
