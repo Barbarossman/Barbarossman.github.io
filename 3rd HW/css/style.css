@@ -77,9 +77,9 @@ header nav a:hover {
     border-left: 1px solid #838383;
     border-right: 1px solid #838383;
     background: #2F2F2F;
-    background: -webkit-linear-gradient #595959, #2F2F2F;
-    background: -o-linear-gradient #595959, #2F2F2F;
-    background: linear-gradient #595959, #2F2F2F;
+    background: -webkit-linear-gradient (top, #595959 0%, #2F2F2F 50%);
+    background: -o-linear-gradient (top, #595959 0%, #2F2F2F 50%);
+    background: linear-gradient (top, #595959 0%, #2F2F2F 50%);
 }
 
 header a {
