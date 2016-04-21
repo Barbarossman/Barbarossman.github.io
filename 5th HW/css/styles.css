@@ -112,9 +112,9 @@ header .navbar a:hover {
     text-decoration: none;
     color: #fff;
     background: #4eabda;
-    background: -webkit-linear-gradient #595959, #4eabda;
-    background: -o-linear-gradient #595959, #4eabda;
-    background: linear-gradient #595959, #4eabda;
+    background: -webkit-linear-gradient (top, #595959 0%, #4eabda 50%);
+    background: -o-linear-gradient (top, #595959 0%, #4eabda 50%);
+    background: linear-gradient (top, #595959 0%, #4eabda 50%);
 }
 
 .navbar a {
@@ -152,10 +152,10 @@ header .navbar a:hover {
 .navbar-right li:last-child {
     border: #4299d2;
     background: #4299d2;
-    background: -webkit-linear-gradient(rgb(81, 177, 220), rgb(46, 122, 196));
-    background: -moz-linear-gradient(rgb(81, 177, 220), rgb(46, 122, 196));
-    background: -o-linear-gradient(rgb(81, 177, 220), rgb(46, 122, 196));
-    background: linear-gradient(rgb(81, 177, 220), rgb(46, 122, 196));
+    background: -webkit-linear-gradient rgb(81, 177, 220), rgb(46, 122, 196); 
+    background: -moz-linear-gradient rgb(81, 177, 220), rgb(46, 122, 196);
+    background: -o-linear-gradient rgb(81, 177, 220), rgb(46, 122, 196);
+    background: linear-gradient rgb(81, 177, 220), rgb(46, 122, 196); 
     position: relative;
     z-index: 10;
 }
@@ -168,12 +168,12 @@ header .navbar a:hover {
     width: 560px;
     position: absolute;
     left: 50%;
-    top: 240px;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
+    top: 50%;
+    -webkit-transform: translateX(-50%,-50%);
+    -moz-transform: translateX(-50%,-50%);
+    -ms-transform: translateX(-50%,-50%);
+    -o-transform: translateX(-50%,-50%);
+    transform: translateX(-50%,-50%);
     margin-bottom: 200px;
 }
 
