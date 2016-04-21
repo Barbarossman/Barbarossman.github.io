@@ -152,7 +152,7 @@ header .navbar a:hover {
 .navbar-right li:last-child {
     border: #4299d2;
     background: #4299d2;
-    background: -webkit-linear-gradient rgb(81, 177, 220), rgb(46, 122, 196); 
+    background: -webkit-linear-gradient  rgb(81, 177, 220), rgb(46, 122, 196); 
     background: -moz-linear-gradient rgb(81, 177, 220), rgb(46, 122, 196);
     background: -o-linear-gradient rgb(81, 177, 220), rgb(46, 122, 196);
     background: linear-gradient rgb(81, 177, 220), rgb(46, 122, 196); 
@@ -169,11 +169,11 @@ header .navbar a:hover {
     position: absolute;
     left: 50%;
     top: 50%;
-    -webkit-transform: translateX(-50%,-50%);
-    -moz-transform: translateX(-50%,-50%);
-    -ms-transform: translateX(-50%,-50%);
-    -o-transform: translateX(-50%,-50%);
-    transform: translateX(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
     margin-bottom: 200px;
 }
 
