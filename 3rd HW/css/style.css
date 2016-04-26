@@ -47,9 +47,9 @@ a {
 header nav {
     margin: 40px 0;
     background: #595959;
-    background:-webkit-linear-gradient (top, #595959 50%, #454444 100%);
-    background:-o-linear-gradient (top, #595959 50%, #454444 100%);
-    background:linear-gradient (top, #595959 50%, #454444 100%);
+    background:-webkit-linear-gradient(to top, #595959, #454444);
+    background:-o-linear-gradient(to top, #595959, #454444);
+    background:linear-gradient(to top, #595959, #454444);
     font-size: 16px;
 }
 
@@ -77,9 +77,9 @@ header nav a:hover {
     border-left: 1px solid #838383;
     border-right: 1px solid #838383;
     background: #2F2F2F;
-    background: -webkit-linear-gradient (top, #595959 0%, #2F2F2F 50%);
-    background: -o-linear-gradient (top, #595959 0%, #2F2F2F 50%);
-    background: linear-gradient (top, #595959 0%, #2F2F2F 50%);
+    background:-webkit-linear-gradient(to top, #595959, #454444);
+    background:-o-linear-gradient(to top, #595959, #454444);
+    background:linear-gradient(to top, #595959, #454444);
 }
 
 header a {

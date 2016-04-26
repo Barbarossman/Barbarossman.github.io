@@ -107,19 +107,21 @@ header li a {
     position: relative;
 }
 header .navbar a:hover {
-    border-left: 1px solid #074f8f;
-    border-right: 1px solid #074f8f;
+    border-left: 2px solid #074f8f;
+    border-right: 2px solid #074f8f;
     text-decoration: none;
     color: #fff;
     background: #4eabda;
-    background: -webkit-linear-gradient (top, #595959 0%, #4eabda 50%);
-    background: -o-linear-gradient (top, #595959 0%, #4eabda 50%);
-    background: linear-gradient (top, #595959 0%, #4eabda 50%);
+    background: -webkit-linear-gradient(to top, #595959 , #4eabda 50%);
+    background: -o-linear-gradient(to top, #595959 , #4eabda 50%);
+    background: linear-gradient(to top, #595959 , #4eabda 50%);
 }
 
 .navbar a {
     padding: 10px;
     color: #4f9ed7;
+     border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
 }
 
 
@@ -152,10 +154,10 @@ header .navbar a:hover {
 .navbar-right li:last-child {
     border: #4299d2;
     background: #4299d2;
-    background: -webkit-linear-gradient  rgb(81, 177, 220), rgb(46, 122, 196); 
-    background: -moz-linear-gradient rgb(81, 177, 220), rgb(46, 122, 196);
-    background: -o-linear-gradient rgb(81, 177, 220), rgb(46, 122, 196);
-    background: linear-gradient rgb(81, 177, 220), rgb(46, 122, 196); 
+    background: -webkit-linear-gradient(to top, rgb(81, 177, 220), rgb(46, 122, 196)); 
+    background: -moz-linear-gradient(to top, rgb(81, 177, 220), rgb(46, 122, 196)); 
+    background: -o-linear-gradient(to top, rgb(81, 177, 220), rgb(46, 122, 196)); 
+    background: linear-gradient(to top, rgb(81, 177, 220), rgb(46, 122, 196)); 
     position: relative;
     z-index: 10;
 }
@@ -168,7 +170,7 @@ header .navbar a:hover {
     width: 560px;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 75%;
     -webkit-transform: translate(-50%,-50%);
     -moz-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
