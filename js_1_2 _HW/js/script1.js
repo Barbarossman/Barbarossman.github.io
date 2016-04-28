@@ -12,8 +12,8 @@ function execute() {
   if (isCancelled(base) || isCancelled(exp)){
   	askForConfirmation();
 
-  } else if(isEmptyString(base)  || isEmptyString(exp)) {
-  	askForConfirmation();
+  } else if(isEmptyString(base) || isEmptyString(exp)) {
+    askForConfirmation();
 
 // Compare the names and use alert in case of coincidence or no coincidence
   
@@ -30,7 +30,7 @@ function execute() {
 //Help
 
 function pow(base, exp) {
-	if (exp ===0) {
+	if (exp === 0) {
 		return 1;
 	}
 
@@ -50,7 +50,7 @@ function isValidValue(n) {
 	return (n % 1 === 0);
 }
 
-function isEmpthyString(n) {
+function isEmptyString(n) {
 	return (n.length ===0);
 }
 
