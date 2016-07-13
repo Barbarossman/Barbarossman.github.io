@@ -1,0 +1,89 @@
+@import "foundation";
+
+hr{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.pre_header{
+    font-size: 12px;
+    text-align: center;
+}
+
+.transparent{
+    background: transparent !important;
+}
+
+.menu_hover{
+
+    &:hover{
+        background: $color_active;
+
+        & a{
+            color: $body-background !important;
+        }
+    }
+}
+
+.border_radius{
+    border-radius: $global-radius;
+    background: $body-background;
+}
+
+.first_msg{
+    padding: 0 25px;
+    line-height: 25px;
+}
+
+.item_content{
+    line-height: 25px;
+}
+
+.footer_content{
+    font-size: 10px;
+    text-align: center;
+}
+
+.title{
+    font-size: $h6-font-size;
+    font-weight: 900;
+    text-align: center;
+    display: block;
+}
+
+.top_logo_size{
+    width: 200px;
+    height: 60px;
+}
+
+.big_img_size{
+    width: 640px;
+    height: 427px;
+}
+
+.item_img_size{
+    width: 210px;
+    height: 250px;
+}
+
+.footer_img_size{
+    width: 240px;
+    height: 30px;
+}
+
+
+.btn{
+    background: $color_active;
+    width: 80%;
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.btn_link{
+    width: 100%;
+    display: block;
+    color: $white !important;
+    text-align: center;
+}
